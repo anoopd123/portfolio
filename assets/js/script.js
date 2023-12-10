@@ -95,7 +95,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["backend development", "front development", "System Designing", "Applications deployment", "Chat bot development"],
+    strings: ["Back-end development", "Front-end development", "System Designing", "Holistic Software Development", "Chat bot development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -145,16 +145,7 @@ document.onkeydown = function (e) {
     }
 }
 
-// Start of Tawk.to Live Chat
-var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-(function () {
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://tawk.to/chat/655cbe8ad600b968d31583a6/1hfp4gkep';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
+
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
@@ -186,6 +177,3 @@ srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
-
-/* SCROLL CONTACT */
